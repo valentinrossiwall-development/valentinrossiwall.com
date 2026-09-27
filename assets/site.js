@@ -1,1 +1,21 @@
-document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');const el=document.querySelector(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}}));
+const menuButton = document.querySelector('.menu-toggle');
+const navigation = document.querySelector('#main-nav');
+
+if (menuButton && navigation) {
+  menuButton.hidden = false;
+  const closeMenu = () => menuButton.setAttribute('aria-expanded', 'false');
+  menuButton.addEventListener('click', () => {
+    const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!isOpen));
+  });
+  navigation.addEventListener('click', (event) => {
+    if (event.target.closest('a')) closeMenu();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+      closeMenu();
+      menuButton.focus();
+    }
+  });
+  window.matchMedia('(max-width: 960px)').addEventListener('change', closeMenu);
+}

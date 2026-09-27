@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://valentinrossiwall.com/</loc></url>
-<url><loc>https://valentinrossiwall.com/erfahrung.html</loc></url>
-<url><loc>https://valentinrossiwall.com/unternehmertum.html</loc></url>
-<url><loc>https://valentinrossiwall.com/publikationen.html</loc></url>
-<url><loc>https://valentinrossiwall.com/insights.html</loc></url>
-<url><loc>https://valentinrossiwall.com/about.html</loc></url>
-<url><loc>https://valentinrossiwall.com/kontakt.html</loc></url>
-<url><loc>https://valentinrossiwall.com/insights/general-ledger-vs-vendor-ledger.html</loc></url>
-<url><loc>https://valentinrossiwall.com/insights/power-query-finance.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/</loc></url>
+  <url><loc>https://valentinrossiwall.com/about.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/erfahrung.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/markets.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/publikationen.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/insights.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/insights/power-query-finance.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/kontakt.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/impressum.html</loc></url>
+  <url><loc>https://valentinrossiwall.com/datenschutz.html</loc></url>
 </urlset>
